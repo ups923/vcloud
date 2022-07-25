@@ -52,7 +52,7 @@ $(document).ready(function () {
     });
 
 
-    $('body').on('click', '#enviar', function (e) {
+    $('body').on('click', '#contact_enviar', function (e) {
         e.preventDefault();
         if ($("#form-mail").valid()) {
             precarga('1');
@@ -65,10 +65,12 @@ $(document).ready(function () {
             var date = new Date(output);
             var fecha = date.toLocaleDateString("fr-FR"); //fr-FR: dd/mm/yyyy;
 
-            name = $("#contact_name").val();
+             name = $("#contact_name").val();
             email = $("#contact_email").val().toLowerCase();
-            msj = $("#contact_msj").val();
+              msj = $("#contact_msj").val();
 
+            $("#contact_name, #contact_email, #contact_msj, #contact_enviar").prop("disabled", true);
+            
             Email.send({
                 Host: "smtp.elasticemail.com",
                 Username: "ups923@gmail.com",
