@@ -10,10 +10,6 @@
         =====================================================-->
         <link rel="icon" type="image/x-icon" href="img/favicon.ico">
 
-        <!-- CSS >> https://-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/css/iziToast.min.css">
-
         <!-- CSS >> LocalSite -->
         <link rel='stylesheet' type='text/css' href='bootstrap/css/bootstrap.min.css' >
         <link rel='stylesheet' type='text/css' href='css/linea.css' >
@@ -22,7 +18,16 @@
         <link rel='stylesheet' type='text/css' href='css/magnific-popup.css' >
         <link rel='stylesheet' type='text/css' href='css/style.css' >
         <link rel='stylesheet' type='text/css' href='css/textillate.animate.css' >
-        <!--<link rel='stylesheet' type='text/css' href='css/textillate.style.css' >-->
+        
+        <!-- CSS >> https://-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/css/iziToast.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.min.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/semantic.min.css"/>
+        
+
+
     </head>
     <body>
         <!--=====================================================
@@ -63,41 +68,15 @@
                     Menu
             =====================================================-->
             <div class='menu' >
-                <div class='inner' >
+                <div class='inner'>
                     <ul class='menu-items' >
-
-                        <li>
-                            <a href='#' class='section-toggle' data-section='intro' >
-                                Inicio
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href='#about' class='section-toggle' data-section='about' >
-                                Info
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href='#resume' class='section-toggle' data-section='resume' >
-                                Resumen
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href='#jobs' class='section-toggle' data-section='jobs' >
-                                Laboral
-                            </a>
-                        </li>
-
-
-                        <li>
-                            <a href='#contact' class='section-toggle' data-section='contact' >
-                                Contact
-                            </a>
-                        </li>
-
-
+                        <li><a href='#' class='section-toggle' data-section='intro' >Inicio</a></li>
+                        <li><a href='#info' class='section-toggle' data-section='about' >Info</a></li>
+                        <li><a href='#resume' class='section-toggle' data-section='resume' >Resumen</a></li>
+                        <li><a href='#laboral' class='section-toggle' data-section='jobs' >Laboral</a></li>
+                        <li><a href='#contact' class='section-toggle' data-section='contact' >Contact</a>
+                        <li hidden><a href='#!' class='section-toggle' data-section='cert'>Certificados</a></li>
+                        <li><a href='#cert' class='section-toggle'>Certificados</a></li>
                     </ul>
                 </div>
             </div>
@@ -123,11 +102,11 @@
                                     <h1>I'm Jiménez</h1>
                                     <p class="">
                                         <!--{{Hagamos Software}}-->
-                                        <ul class="p-intro textillate">
-                                            <li><p>{{Hagamos Software}}</p></li>   
-                                            <li><p>{{Probemos Software}}</p></li>
-                                            <li><p>{{Resolvamos Problemas}}</p></li>                                            
-                                        </ul>
+                                    <ul class="p-intro textillate">
+                                        <li><p>{{Hagamos Software}}</p></li>   
+                                        <li><p>{{Probemos Software}}</p></li>
+                                        <li><p>{{Resolvamos Problemas}}</p></li>                                            
+                                    </ul>
                                     </p>
                                     <div class='intro-btns' >
 
@@ -161,23 +140,24 @@
 
                             <div class='section-header' >
                                 <h2>
+                                    <!-- Probar: https://mattboldt.com/demos/typed-js/  -->
                                     I'm a 
                                     <strong class='color'>
                                         <ul style="display:inline!important" class="textillate">
                                             <li><strong class='color'>Programmer</strong></li>   
                                             <li><strong class='color'>Data Analyst</strong></li>
                                             <li><strong class='color'>Designer</strong></li>
-                                            <li><strong class='color'>QA Tester</strong></li>                                            
+                                            <li><strong class='color'>QA-Tester</strong></li>                                            
                                         </ul>
 
                                     </strong>
-                                    
-                                    
-                                    
+
+
+
 
                                 </h2>
-                                 
-                                
+
+
                             </div>
 
                             <div class='row' >
@@ -950,7 +930,7 @@
                                 <!-- DACTA -->
                                 <li data-groups='["dev","ti","soporte"]' >
                                     <div class='inner' >
-                                        <img src='img/portfolio/2.jpg' alt>
+                                        <img src='img/portfolio/1.jpg' alt>
 
                                         <div hidden class='overlay' >
 
@@ -963,7 +943,7 @@
                                                 <figure>
 
                                                     <!--project popup image-->
-                                                    <img src='img/portfolio/2.jpg' alt>
+                                                    <img src='img/portfolio/1.jpg' alt>
 
                                                 </figure>
                                                 <div class='content' >
@@ -989,10 +969,10 @@
                                     </div>
                                 </li>
 
-                                <!-- DACTA  -->
-                                <li data-groups='["dev","ti","soporte"]' >
+                                <!-- RAFAILE -->
+                                <li data-groups='["ti","soporte"]' >
                                     <div class='inner' >
-                                        <img src='img/portfolio/1.jpg' alt>
+                                        <img src='img/portfolio/2.jpg' alt>
 
                                         <div hidden class='overlay' >
 
@@ -1005,7 +985,7 @@
                                                 <figure>
 
                                                     <!--project popup image-->
-                                                    <img src='img/portfolio/1.jpg' alt>
+                                                    <img src='img/portfolio/2.jpg' alt>
 
                                                 </figure>
                                                 <div class='content' >
@@ -1209,6 +1189,335 @@
 
 
                 <!--=====================================================
+                        CERTIFICADOS
+                =====================================================-->
+                <section id='cert' class='section portfolio-section border-d' >
+
+                    <div  class='section-block portfolio-block' >
+
+                        <div  class='container-fluid' >
+
+
+                            <div class='section-header' >
+                                <h2>Certificados <strong class='color' >Obtenidos </strong></h2>
+                            </div>
+
+                            <ul class='portfolio-filters' >
+                                <li>
+                                    <a href='#' class='active' data-group='all' >
+                                        All
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='#' data-group='2020' >
+                                        2020
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='#' data-group='2021' >
+                                        2021
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='#' data-group='2022' >
+                                        2022
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <ul class='portfolio-items' >
+
+                                <li data-groups='["2020"]' >
+                                    <div class='inner' >
+                                        <img src='img/cert/2020-1.jpg' alt>
+
+                                        <div class='overlay' >
+
+                                            <a href='#2020-1' class='view-project' >
+                                                View
+                                            </a>
+
+                                            <!--project popup-->
+                                            <div id='2020-1' class='popup-box zoom-anim-dialog mfp-hide' >
+                                                <figure>
+
+                                                    <!--project popup image-->
+                                                    <img src='img/cert/2020-1.jpg' alt>
+
+                                                </figure>
+                                                <div class='content' >
+
+                                                    <!--project popup title-->
+                                                    <h4>Trabajo remoto</h4>
+
+                                                    <!--project popup description-->
+                                                    <p>
+                                                        • Herramientas de comunicacion </br>
+                                                        • Gestión de la información </br>
+                                                        • Gestión de tareas</br>
+                                                        • Trabajo colaborativo</br>
+                                                        • Reuniones de integración </br>
+                                                        
+                                                    </p>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </li>
+
+                                <li data-groups='["2021"]' >
+                                    <div class='inner' >
+                                        <img src='img/cert/2021-1.jpg' alt>
+
+                                        <div class='overlay' >
+
+                                            <a href='#2021-1' class='view-project' >
+                                                View 
+                                            </a>
+
+                                            <!--project popup-->
+                                            <div id='2021-1' class='popup-box zoom-anim-dialog mfp-hide' >
+                                                <figure>
+
+                                                    <!--project popup image-->
+                                                    <img src='img/cert/2021-1.jpg' alt>
+
+                                                </figure>
+                                                <div class='content' >
+
+                                                    <!--project popup title-->
+                                                    <h4>Implementador: ISO 9001</h4>
+
+                                                    <!--project popup description-->
+                                                    <p>
+                                                        Experiencia adquirida para apoyar a cualquier organización en el establecimiento, la implementación, la gestión y el mantenimiento de un Sistema 
+                                                        de Gestión de Calidad (SGC) basado en la ISO 9001:2015
+                                                    </p>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </li>
+
+                                <li data-groups='["2021"]' >
+                                    <div class='inner' >
+                                        <img src='img/cert/2021-2.jpg' alt>
+
+                                        <div class='overlay' >
+
+                                            <a href='#2021-2' class='view-project' >
+                                                View 
+                                            </a>
+
+                                            <!--project popup-->
+                                            <div id='2021-2' class='popup-box zoom-anim-dialog mfp-hide' >
+                                                <figure>
+
+                                                    <!--project popup image-->
+                                                    <img src='img/cert/2021-2.jpg' alt>
+
+                                                </figure>
+                                                <div class='content' >
+
+                                                    <!--project popup title-->
+                                                    <h4>SCRUM</h4>
+
+                                                    <!--project popup description-->
+                                                    <p>
+                                                        Experiencia adquirida en la gestión el proceso Scrum. <br/>
+                                                        Capacitado para ayudar a eliminar impedimentos que puedan afectar a la entrega del producto; <br/>
+                                                        
+                                                       • Enfocar al equipo en los objetivos de la iteración actual <br/>
+                                                       • Eliminar las barreras que bloqueen al equipo  <br/>
+                                                       • Colaboración directa con el Product Owner <br/>
+                                                       • Enfoque a la mejora continua<br/>
+                                                       
+                                                    </p>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </li>
+
+
+                                <li data-groups='["2022"]' >
+                                    <div class='inner' >
+                                        <img src='img/cert/2022-1.jpg' alt>
+
+                                        <div class='overlay' >
+
+                                            <a href='#2022-1' class='view-project' >
+                                                View
+                                            </a>
+
+                                            <!--project popup-->
+                                            <div id='2022-1' class='popup-box zoom-anim-dialog mfp-hide' >
+                                                <figure>
+
+                                                    <!--project popup image-->
+                                                    <img src='img/cert/2022-1.jpg' alt>
+
+                                                </figure>
+                                                <div class='content' >
+
+                                                    <!--project popup title-->
+                                                    <h4>Tester de Software</h4>
+
+                                                    <!--project popup description-->
+                                                    <p>
+                                                        • Planificación y diseño de planes de pruebas  <br/>
+                                                        • Ejecución de pruebas de software <br/>
+                                                        • Validación del funcionamiento correcto del software  <br/>
+                                                        • Documentación del software certificado <br/>
+                                                    </p>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </li>
+
+                                <li data-groups='["2022"]' >
+                                    <div class='inner' >
+                                        <img src='img/cert/2022-2.jpg' alt>
+
+                                        <div class='overlay' >
+
+                                            <a href='#2022-2' class='view-project' >
+                                                View 
+                                            </a>
+
+                                            <!--project popup-->
+                                            <div id='2022-2' class='popup-box zoom-anim-dialog mfp-hide' >
+                                                <figure>
+
+                                                    <!--project popup image-->
+                                                    <img src='img/cert/2022-2.jpg' alt>
+
+                                                </figure>
+                                                <div class='content' >
+
+                                                    <!--project popup title-->
+                                                    <h4>Control de versiones</h4>
+
+                                                    <!--project popup description-->
+                                                    <p>
+                                                        Capacitado en el uso y administración de sistemas de control de versiones para poder gestionar el código fuente de las aplicaciones; registrar y analizar los cambios realizados en un archivo o conjunto de archivos a lo largo del tiempo, de modo que se puedan recuperar versiones específicas más adelante.
+                                                    </p>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </li>
+
+                                <li data-groups='["2022"]' >
+                                    <div class='inner' >
+                                        <img src='img/cert/2022-3.jpg' alt>
+
+                                        <div class='overlay' >
+
+                                            <a href='#2022-3' class='view-project' >
+                                                View 
+                                            </a>
+
+                                            <!--project popup-->
+                                            <div id='2022-3' class='popup-box zoom-anim-dialog mfp-hide' >
+                                                <figure>
+
+                                                    <!--project popup image-->
+                                                    <img src='img/cert/2022-3.jpg' alt>
+
+                                                </figure>
+                                                <div class='content' >
+
+                                                    <!--project popup title-->
+                                                    <h4>Tester de Software</h4>
+
+                                                    <!--project popup description-->
+                                                    <p>
+                                                        • Planificación y diseño de planes de pruebas  <br/>
+                                                        • Ejecución de pruebas de software <br/>
+                                                        • Validación del funcionamiento correcto del software  <br/>
+                                                        • Documentación del software certificado <br/>
+                                                    </p>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </li>
+                                <li data-groups='["2022"]' >
+                                    <div class='inner' >
+                                        <img src='img/cert/2022-4.jpg' alt>
+
+                                        <div class='overlay' >
+
+                                            <a href='#2022-4' class='view-project' >
+                                                View 
+                                            </a>
+
+                                            <!--project popup-->
+                                            <div id='2022-4' class='popup-box zoom-anim-dialog mfp-hide' >
+                                                <figure>
+
+                                                    <!--project popup image-->
+                                                    <img src='img/cert/2022-4.jpg' alt>
+
+                                                </figure>
+                                                <div class='content' >
+
+                                                    <!--project popup title-->
+                                                    <h4>Tester de Software</h4>
+
+                                                    <!--project popup description-->
+                                                    <p>
+                                                        • Planificación y diseño de planes de pruebas  <br/>
+                                                        • Ejecución de pruebas de software <br/>
+                                                        • Validación del funcionamiento correcto del software  <br/>
+                                                        • Documentación del software certificado <br/>
+                                                    </p>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+
+                <!--=====================================================
                         Contact Section
                 =====================================================-->
                 <section id='contact' class='section contact-section border-d' >
@@ -1301,7 +1610,7 @@
                                             <i class='ion-ios-telephone-outline' ></i>
 
                                             <p>
-                                                <a style="text-decoration:none!important; color:rgba(0,0,0,.4)" href="tel:+51937021354">(+51) 937 021 354</a><br>
+                                                (+51) 937 021 354<br>
 
                                             </p>
 
@@ -1319,28 +1628,13 @@
 
                                         </div>
 
-
-
-
                                     </div>
-
-
-
                                 </div>
-
-
                             </div>
-
-
-
                         </div>
-
                     </div>
-
                 </section>
-
             </div>
-
         </div>
 
 
@@ -1366,18 +1660,126 @@
         <script src='https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.js'></script>
         <script src='https://cdnjs.cloudflare.com/ajax/libs/izitoast/1.4.0/js/iziToast.min.js'></script>
         <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/2.19.0/js/md5.min.js"></script>
+
+
+        <script>
+            alertify.defaults = {
+                // dialogs defaults
+                autoReset: true,
+                basic: false,
+                closable: true,
+                closableByDimmer: true,
+                invokeOnCloseOff: false,
+                frameless: false,
+                defaultFocusOff: false,
+                maintainFocus: true, // <== global default not per instance, applies to all dialogs
+                maximizable: true,
+                modal: true,
+                movable: true,
+                moveBounded: false,
+                overflow: true,
+                padding: true,
+                pinnable: true,
+                pinned: true,
+                preventBodyShift: false, // <== global default not per instance, applies to all dialogs
+                resizable: true,
+                startMaximized: false,
+                transition: 'pulse',
+                transitionOff: false,
+                tabbable: 'button:not(:disabled):not(.ajs-reset),[href]:not(:disabled):not(.ajs-reset),input:not(:disabled):not(.ajs-reset),select:not(:disabled):not(.ajs-reset),textarea:not(:disabled):not(.ajs-reset),[tabindex]:not([tabindex^="-"]):not(:disabled):not(.ajs-reset)', // <== global default not per instance, applies to all dialogs
+
+                // notifier defaults
+                notifier: {
+                    // auto-dismiss wait time (in seconds)  
+                    delay: 5,
+                    // default position
+                    position: 'bottom-right',
+                    // adds a close button to notifier messages
+                    closeButton: false,
+                    // provides the ability to rename notifier classes
+                    classes: {
+                        base: 'alertify-notifier',
+                        prefix: 'ajs-',
+                        message: 'ajs-message',
+                        top: 'ajs-top',
+                        right: 'ajs-right',
+                        bottom: 'ajs-bottom',
+                        left: 'ajs-left',
+                        center: 'ajs-center',
+                        visible: 'ajs-visible',
+                        hidden: 'ajs-hidden',
+                        close: 'ajs-close'
+                    }
+                },
+
+                // language resources 
+                glossary: {
+                    // dialogs default title
+                    title: 'Acceso',
+                    // ok button text
+                    ok: 'OK',
+                    // cancel button text
+                    cancel: 'Cancelar'
+                },
+
+                // theme settings
+                theme: {
+                    // class name attached to prompt dialog input textbox.
+                    input: 'ajs-input',
+                    // class name attached to ok button
+                    ok: 'ajs-ok',
+                    // class name attached to cancel button 
+                    cancel: 'ajs-cancel'
+                },
+                // global hooks
+                hooks: {
+                    // invoked before initializing any dialog
+                    preinit: function (instance) {},
+                    // invoked after initializing any dialog
+                    postinit: function (instance) {},
+                },
+            };
+        </script>
 
         <script>
             $(document).ready(function () {
                 $('.textillate').textillate({
-                    minDisplayTime: 1000, 
-                    in:  { 
+                    minDisplayTime: 1000,
+                    in: {
                         effect: 'fadeInUp', sync: true
                     },
-                    out: { 
-                        delay: 3, effect: 'fadeOutDown', sync: true
+                    out: {
+                        effect: 'fadeOutDown', sync: true
                     },
                     loop: true
+                });
+            });
+
+            //Certificados
+            $(document).ready(function () {
+                $('a[href="#cert"]').on("click", function (e) {
+                    e.preventDefault();
+//                alertify.alert('Me haz presionado');
+                    alertify.prompt("Introduce la contraseña", "",
+                            function (evt, value) {
+                                var hash = md5(value);
+                                
+                                    if( hash === '534b44a19bf18d20b71ecc4eb77c572f'){
+                                        alertify.success('Acceso correcto');                                        
+                                        $('a[data-section="cert"]').click();
+                                    }else{
+                                        alertify.error('Contraseña inválida');
+                                        return false;
+                                    }
+                            },
+                            function () {
+                                //alertify.error('Cancelado');
+                                
+                            });
+                            return false;
+
                 });
             });
         </script>
